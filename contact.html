@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+   </head> 
+   <body>
+      
+      <div class="container-nav">
+         <nav class="navbar" role="navigation">
+            <a href="#" class="brand">Bienvenidos</a>
+            <ul class="nav-links">
+               <li><a href="index.html">Inicio</a></li>
+               <li><a href="about.html">Recetas de postres</a></li>
+               <li><a href="services.html">Recetas saladas</a></li>
+               <li><a href="contact.html">Contacto</a></li>
+            </ul>
+         </nav>
+         <button class="button-menu-toggle">Menu</button>
+      </div>
+        
+       <div class="formulario">
+          <p> Para comunicarte con nosotros llena el siguiente formulario:</p>
+         <form id="myForm">
+         <label for="nombre">Nombre completo:</label>   
+         <input type="text" id="nombre" name="nombre" required>
+         <label for="email">Correo electrónico:</label>
+         <input type="email" id="email" name="email" required>
+         <label for="país">País:</label>
+         <select id="país" name="país">
+           <option value="Argentina">Argentina</option>
+           <option value="Bolivia">Bolivia</option>
+           <option value="Brasil">Brasil</option>
+           <option value="Colombia">Colombia</option>
+           <option value="Chile">Chile</option>
+           <option value="Ecuador">Ecuador</option>
+           <option value="Guyana">Guyana</option>
+           <option value="Paraguay">Paraguay</option>
+           <option value="Perú">Perú</option>
+           <option value="Surinam">Surinam</option>
+           <option value="Trinidad y Tobago">Trinidad y Tobago</option>
+           <option value="Uruguay">Uruguay</option>
+           <option value="Venezuela">Venezuela</option>
+         </select>
+         <label for="mensaje">Mensaje:</label>   
+         <textarea id="mensaje" name="mensaje"></textarea> 
+         <button type="submit">Enviar</button>
+         
+         </form>
+      </div>
+
+      <!--<div class="container">
+         <h1>Contacto</h1>
+         <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+         <form>
+             <label for="email">Correo electrónico</label>
+             <input type="email" id="email" name="email" required>
+             <button type="submit">Enviar</button>   
+         </form>
+      </div>
+
+      <div>
+        <forms id="myForm">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+          <button type="submit">Enviar</button>
+        </forms>
+      </div>-->
+    
+    
+   </body>
+</html>
